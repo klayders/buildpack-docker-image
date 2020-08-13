@@ -1,0 +1,14 @@
+version: '2'
+
+services:
+
+  samples:
+    container_name: samples
+    image: sample
+    environment:
+      - GOSLOTO_ACTIVE_PROFILE=gt
+      - GOSLOTO_ACTIVE_ENV=gt
+      - BPL_SPRING_CLOUD_BINDINGS_ENABLED=true
+      - BP_BOOT_NATIVE_IMAGE_BUILD_ARGUMENTS=one two
+      - BPL_JVM_THREAD_COUNT=303
+    mem_limit: 2g
