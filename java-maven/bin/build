@@ -28,6 +28,7 @@ if [[ -r /etc/alpine-release ]]; then
   jdk_version="14.0.2"
 fi
 
+
 maven_url="https://apache.org/dist/maven/maven-3/3.5.4/binaries/apache-maven-3.5.4-bin.tar.gz"
 maven_version="3.5.4"
 
